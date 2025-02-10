@@ -1,0 +1,7 @@
+streamlit
+streamlit-carousel
+pandas
+numpy
+scikit-learn
+tensorflow
+matplotlib
