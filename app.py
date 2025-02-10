@@ -7,7 +7,7 @@ st.title("To Charmagne Gyle Z. Corpuz, Happy 3rd Anniversary!")
 love_letter = """
 This is a letter dedicated to the woman I love. My significant other, my princess, my queen, my babie.
 
-It's been 1096 days. It's one helluva ride. 
+It's been 1096 days. It's one helluva ride. To be honest, I'll always say these words to you. The fact that I am very thankful to have met you, and the fact that I am very happy have you as my one and only babie. The past year has been rough for the two of us, rough in a way that the days we met personally can be easily counted.
 
 I love you to the moon and back, always.
 """
