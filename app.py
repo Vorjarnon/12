@@ -25,5 +25,5 @@ image_paths = [
 ]
 
 # Slider to select the current image
-image_index = st.slider(0, len(image_paths) - 1)
+image_index = st.slider("", 0, len(image_paths) - 1)
 st.image(image_paths[image_index])
