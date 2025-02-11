@@ -187,4 +187,4 @@ if st.button("START"):
 else:
     # Add video to the starting screen
     st.video("143.mp4")
-    st.markdown("*^^PRESS START^^*")
+    st.subheader("*^^PRESS START^^*")
