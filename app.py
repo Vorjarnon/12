@@ -182,5 +182,5 @@ def display_main_content():
 if st.button("Start"):
     display_main_content()
 else:
-    st.title("Welcome to the Love Letter App")
-    st.write("Press the button below to start reading the love letter.")
+    st.title("Happy Anniversary, Babie! 💖")
+    st.write("CLICK START")
