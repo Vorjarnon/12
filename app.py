@@ -1,6 +1,18 @@
 import streamlit as st
 import time
 
+# Add custom CSS for background color
+st.markdown(
+    """
+    <style>
+    .reportview-container {
+        background-color: #f0f8ff;  /* Change this to your desired color */
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
+
 # Streamlit app title
 st.title("To Charmagne Gyle Z. Corpuz,")
 
