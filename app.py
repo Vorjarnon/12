@@ -1,7 +1,7 @@
 import streamlit as st
 
 # Streamlit app title
-st.title("Para kay Charmagne Gyle Z. Corpuz,")
+st.title("To Charmagne Gyle Z. Corpuz,")
 
 # Love letter content
 love_letter = """
