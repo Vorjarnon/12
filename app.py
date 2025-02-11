@@ -170,7 +170,7 @@ def display_main_content():
     # Add background music
     st.audio("loml.mp3", start_time=0)  # Update with your music file path
     st.write("Play music, then enjoy the slideshow hehe")
-    st.write("**Naka autoplay pala tong slideshow kasi naka code 😭 Refresh mo nalang yung site babie tas after mo istart balik ka kagad hereeee**")
+    st.write("**Naka autoplay pala tong slideshow kasi naka code na after mo pindutin yung START magpplay na siya 😭 Refresh mo nalang yung site babie tas after mo istart balik ka kagad hereeee**")
 
     # Automatic slideshow
     image_placeholder = st.empty()
