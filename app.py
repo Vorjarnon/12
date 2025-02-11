@@ -179,10 +179,7 @@ def display_main_content():
             time.sleep(2)  # Change the duration as needed
 
 # Starting screen
-st.title("Happy Anniversary, Babie! 💖")
-
-# Centering the button
-col1, col2, col3 = st.columns([1, 2, 1])  # Create three columns
-with col2:  # Use the middle column for centering
-    if st.button("Start"):
-        display_main_content()
+if st.button("START"):
+    display_main_content()
+else:
+    st.title("Happy Anniversary, Babie! 💖")
