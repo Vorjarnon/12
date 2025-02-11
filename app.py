@@ -153,16 +153,6 @@ if 'image_index' not in st.session_state:
 
 # Function to display the main content
 def display_main_content():
-    # Add background music
-    st.audio("loml.mp3", start_time=0)  # Update with your music file path
-    
-    # Automatic slideshow
-    image_placeholder = st.empty()
-    while True:
-        for image_path in image_paths:
-            image_placeholder.image(image_path)
-            time.sleep(2)  # Change the duration as needed
-            
     # Streamlit app title
     st.title("To Charmagne Gyle Z. Corpuz,")
 
@@ -179,6 +169,17 @@ def display_main_content():
     # Subheader for the image slideshow
     st.header("I love you to the moon and back. Always. 💖")
     st.title("Happy 3rd Anniversary!")
+
+    # Add background music
+    st.audio("loml.mp3", start_time=0)  # Update with your music file path
+    st.write("Play music, then enjoy the slideshow hehe")
+
+    # Automatic slideshow
+    image_placeholder = st.empty()
+    while True:
+        for image_path in image_paths:
+            image_placeholder.image(image_path)
+            time.sleep(2)  # Change the duration as needed
 
 # Starting screen
 if st.button("START"):
