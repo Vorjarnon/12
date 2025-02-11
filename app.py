@@ -167,8 +167,7 @@ def display_main_content():
     st.write(love_letter)
 
     # Subheader for the image slideshow
-    st.header("I love you to the moon and back. Always. 💖")
-    st.title("Happy 3rd Anniversary!")
+    st.title("I love you to the moon and back. Always. 💖")
 
     # Add background music
     st.audio("loml.mp3", start_time=0)  # Update with your music file path
