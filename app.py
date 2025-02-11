@@ -188,4 +188,4 @@ else:
     # Add video to the starting screen
     st.video("143.mp4")
     st.title("Happy 3rd Anniversary, Babie! 💖")
-    st.markdown("You can use **bold** and *italic* text.")
+    st.markdown("*^^PRESS START^^*")
