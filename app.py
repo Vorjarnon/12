@@ -164,7 +164,11 @@ image_paths = [
     "img/image143.jpg"
 ]
 
+# Create a placeholder for the image
+image_placeholder = st.empty()
+
 # Automatic slideshow
-for image_path in image_paths:
-    st.image(image_path)
-    time.sleep(2)  # Change the duration as needed
+while True:
+    for image_path in image_paths:
+        image_placeholder.image(image_path)
+        time.sleep(2)  # Change the duration as needed
