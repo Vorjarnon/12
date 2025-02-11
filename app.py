@@ -183,4 +183,4 @@ if st.button("Start"):
     display_main_content()
 else:
     st.title("Happy Anniversary, Babie! 💖")
-    st.write("CLICK START")
+    st.header("CLICK START")
