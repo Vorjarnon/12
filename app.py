@@ -14,7 +14,7 @@ Nakalipas na ng 1096 na araw simula nung tayo ay naging opisyal. Dami nating nap
 st.write(love_letter)
 
 # Subheader for the image slideshow
-st.subheader("I love you to the moon and back, always. 💖")
+st.header("I love you to the moon and back, always. 💖")
 st.title("Happy 3rd Anniversary!")
 
 # List of image paths (update these paths to your actual images)
