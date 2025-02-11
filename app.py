@@ -1,18 +1,6 @@
 import streamlit as st
 import time
 
-# Add custom CSS for background color
-st.markdown(
-    """
-    <style>
-    body {
-        background-color: #FFD1DC;
-    }
-    </style>
-    """,
-    unsafe_allow_html=True
-)
-
 # Streamlit app title
 st.title("To Charmagne Gyle Z. Corpuz,")
 
