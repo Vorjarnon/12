@@ -18,9 +18,6 @@ st.write(love_letter)
 st.header("I love you to the moon and back, always. 💖")
 st.title("Happy 3rd Anniversary!")
 
-# Add background music
-st.audio("msc/adoreyou.mp3")  # Update with your actual audio file path
-
 # List of image paths (update these paths to your actual images)
 image_paths = [
     "img/image1.jpg",
