@@ -179,7 +179,7 @@ def display_main_content():
     while True:
         for image_path in image_paths:
             image_placeholder.image(image_path)
-            time.sleep(2)  # Change the duration as needed
+            time.sleep(5)  # Change the duration as needed
 
 # Starting screen
 if st.button("START"):
