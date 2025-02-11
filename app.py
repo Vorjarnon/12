@@ -5,8 +5,8 @@ import time
 st.markdown(
     """
     <style>
-    .reportview-container {
-        background-color: #f0f8ff;  /* Change this to your desired color */
+    body {
+        background-color: #FFD1DC;
     }
     </style>
     """,
