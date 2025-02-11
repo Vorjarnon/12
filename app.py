@@ -2,7 +2,6 @@ import streamlit as st
 
 # List of image paths (update these paths to your actual images)
 image_paths = [
-    # Add your image paths here
     "img/image1.jpg",
     "img/image2.jpg",
     "img/image3.jpg",
@@ -148,7 +147,7 @@ image_paths = [
 ]
 
 # Function to display the main content
-def display_main_content(image_paths):
+def display_main_content():
     # Streamlit app title
     st.title("To Charmagne Gyle Z. Corpuz,")
 
@@ -167,12 +166,19 @@ def display_main_content(image_paths):
     st.title("Happy 3rd Anniversary!")
 
     # Slider to select the current image
-    image_index = st.slider("", 0, len(image_paths) - 1)
+    image_index = st.slider("", 0, len(image_paths) - 1, value=st.session_state.image_index)
     st.image(image_paths[image_index])
+
+    # Update the session state with the current image index
+    st.session_state.image_index = image_index
+
+# Initialize session state for image index if not already done
+if 'image_index' not in st.session_state:
+    st.session_state.image_index = 0  # Default index
 
 # Starting screen
 if st.button("Start"):
-    display_main_content(image_paths)
+    display_main_content()
 else:
     st.title("Welcome to the Love Letter App")
     st.write("Press the button below to start reading the love letter.")
