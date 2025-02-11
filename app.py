@@ -14,6 +14,10 @@ Nakalipas na ng 1096 na araw simula nung tayo ay naging opisyal. Dami nating nap
 # Display the love letter
 st.write(love_letter)
 
+# Subheader for the image slideshow
+st.header("I love you to the moon and back, always. 💖")
+st.title("Happy 3rd Anniversary!")
+
 # List of image paths (update these paths to your actual images)
 image_paths = [
     "img/image1.jpg",
@@ -168,7 +172,3 @@ while True:
     for image_path in image_paths:
         image_placeholder.image(image_path)
         time.sleep(2)  # Change the duration as needed
-
-# Subheader for the image slideshow
-st.header("I love you to the moon and back, always. 💖")
-st.title("Happy 3rd Anniversary!")
