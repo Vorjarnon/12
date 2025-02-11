@@ -179,8 +179,7 @@ def display_main_content():
             time.sleep(2)  # Change the duration as needed
 
 # Starting screen
-if st.button("Start"):
+if st.button("START"):
     display_main_content()
 else:
     st.title("Happy Anniversary, Babie! 💖")
-    st.header("CLICK START")
