@@ -185,6 +185,6 @@ def display_main_content():
 if st.button("START"):
     display_main_content()
 else:
-    st.title("Happy 3rd Anniversary, Babie! 💖")
     # Add video to the starting screen
     st.video("143.mp4")
+    st.title("Happy 3rd Anniversary, Babie! 💖")
