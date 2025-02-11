@@ -1,0 +1,5 @@
+[theme]
+primaryColor = "#00BFFF"
+backgroundColor = "#FFD1DC"  # Change this to your desired background color
+secondaryBackgroundColor = "#ffffff"
+textColor = "#000000"
