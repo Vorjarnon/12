@@ -183,3 +183,4 @@ if st.button("START"):
     display_main_content()
 else:
     st.title("Happy Anniversary, Babie! 💖")
+    st.write("View mo sana sa laptop kung posible hehe")
