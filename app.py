@@ -171,7 +171,6 @@ def display_main_content():
     st.title("Happy 3rd Anniversary!")
 
     # Add background music
-    st.subheader("Note: Refresh mo muna para makita mo sa umpisa yung slideshow AHAHAHA")
     st.audio("loml.mp3", start_time=0)  # Update with your music file path
     st.write("Play music, then enjoy the slideshow hehe")
 
@@ -189,3 +188,4 @@ else:
     # Add video to the starting screen
     st.video("143.mp4")
     st.title("Happy 3rd Anniversary, Babie! 💖")
+    st.markdown("You can use **bold** and *italic* text.")
