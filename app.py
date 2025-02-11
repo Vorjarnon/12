@@ -147,11 +147,9 @@ image_paths = [
     "img/image143.jpg"
 ]
 
-# Initialize session state for image index and slideshow status if not already done
+# Initialize session state for image index if not already done
 if 'image_index' not in st.session_state:
     st.session_state.image_index = 0  # Default index
-if 'slideshow_started' not in st.session_state:
-    st.session_state.slideshow_started = False
 
 # Function to display the main content
 def display_main_content():
@@ -177,20 +175,14 @@ def display_main_content():
     st.write("Play music, then enjoy the slideshow hehe")
 
     # Automatic slideshow
-    if st.session_state.slideshow_started:
-        image_placeholder = st.empty()
-        while True:
-            for image_path in image_paths:
-                image_placeholder.image(image_path)
-                time.sleep(2)  # Change the duration as needed
+    image_placeholder = st.empty()
+    while True:
+        for image_path in image_paths:
+            image_placeholder.image(image_path)
+            time.sleep(2)  # Change the duration as needed
 
 # Starting screen
 if st.button("START"):
     display_main_content()
 else:
     st.title("Happy 3rd Anniversary, Babie! 💖")
-
-# Button to start the slideshow
-if st.button("START SLIDESHOW"):
-    st.session_state.slideshow_started = True
-    display_main_content()
