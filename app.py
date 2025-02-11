@@ -1,4 +1,5 @@
 import streamlit as st
+import time
 
 # Streamlit app title
 st.title("To Charmagne Gyle Z. Corpuz,")
@@ -163,6 +164,7 @@ image_paths = [
     "img/image143.jpg"
 ]
 
-# Slider to select the current image
-image_index = st.slider("", 0, len(image_paths) - 1)
-st.image(image_paths[image_index])
+# Automatic slideshow
+for image_path in image_paths:
+    st.image(image_path)
+    time.sleep(2)  # Change the duration as needed
