@@ -154,7 +154,7 @@ if 'image_index' not in st.session_state:
 # Function to display the main content
 def display_main_content():
     # Streamlit app title
-    st.title("To Charmagne Gyle Z. Corpuz,")
+    st.title("Happy 3rd Anniversary, Babie! 💖")
 
     # Love letter content
     love_letter = """
@@ -187,5 +187,4 @@ if st.button("START"):
 else:
     # Add video to the starting screen
     st.video("143.mp4")
-    st.title("Happy 3rd Anniversary, Babie! 💖")
     st.markdown("*^^PRESS START^^*")
